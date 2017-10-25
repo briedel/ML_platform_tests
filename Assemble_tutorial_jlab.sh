@@ -35,4 +35,5 @@ mkdir /root/.jupyter/
 # jupyter lab --allow-root
 
 wget https://raw.githubusercontent.com/briedel/ML_platform_tests/master/jupyterhub_config.py
-jupyterhub-singleuser lab --config jupyterhub_config.py
+
+jupyterhub-singleuser --config jupyterhub_config.py
